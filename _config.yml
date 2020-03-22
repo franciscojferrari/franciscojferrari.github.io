@@ -19,7 +19,7 @@ description: >-
   This is my personal Website posting about python and DataScience 
 # twitter_username: username
 github_username: franciscojferrari
-minimal_mistakes_skin: dark
+minimal_mistakes_skin: mint
 search: true
 
 # Build settings
@@ -58,45 +58,45 @@ plugins:
 author:
   name   : "Francisco"
   avatar : "/assets/images/this_is_me.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+  bio    : "Data Analysis, Data Science and Machine Learning"
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "https://"
+      url: "https://fferrari.com"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+      url: "https://twitter.com/FJ_Ferrari"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
+      url: "https://github.com/franciscojferrari"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://www.instagram.com/pancho_ferrari/"
 
 footer:
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+      url: "https://twitter.com/FJ_Ferrari"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
+      url: "https://github.com/franciscojferrari"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://www.instagram.com/pancho_ferrari/"
 
 defaults:
-  # _posts
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: single
-      author_profile: true
-      read_time: true
-      comments: true
-      share: true
-      related: true
+  # # _posts
+  # - scope:
+  #     path: ""
+  #     type: posts
+  #   values:
+  #     layout: single
+  #     author_profile: true
+  #     read_time: true
+  #     comments: true
+  #     share: true
+  #     related: true
   # _pages
   - scope:
       path: "_pages"
@@ -111,3 +111,9 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
+
+analytics:
+  provider: "google-gtag"
+  google:
+    tracking_id: "UA-161535574-1"
+    anonymize_ip: false # default
