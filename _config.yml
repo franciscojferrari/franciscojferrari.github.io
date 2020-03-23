@@ -25,6 +25,8 @@ search: true
 # Build settings
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
+# theme: minimal-mistakes-jekyll
+
 # Outputting
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
@@ -91,7 +93,7 @@ defaults:
   # _posts
   - scope:
       path: ""
-      type: pages
+      type: posts
     values:
       layout: single
       author_profile: true
@@ -107,12 +109,12 @@ defaults:
       layout: single
       author_profile: true
 
-category_archive:
-  type: liquid
-  path: /categories/
-tag_archive:
-  type: liquid
-  path: /tags/
+# category_archive:
+#   type: liquid
+#   path: /categories/
+# tag_archive:
+#   type: liquid
+#   path: /tags/
 
 analytics:
   provider: "google-universal"
